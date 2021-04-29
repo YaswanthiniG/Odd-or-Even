@@ -1,0 +1,23 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	height:650px;
+	background-image: linear-gradient(to bottom right, #F0EFF6, #B9E1C8, #9F66CB,#F57CF4,#EB9E42,#EFF16B,#85E85A);
+}
+.main_part{
+	border:2px solid #87B8D4;
+	border-radius: 4px;
+	background-color:white;
+	height:300px;
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto 100px ;
+}
+
+.paragraph{
+	padding:10px;	
+}
