@@ -1,5 +1,9 @@
 function ischeck(){
 	var num1=document.myform.OddEven.value;
+	if((num1 == "")||(num1>='A'&&num1<='Z')||(num1>='a'&&num1<='z')){
+	   alert("Enter any number");
+	}
+	else{
 	if (num1 != 0) {
 		if((num1%2) === 0)
 		{
@@ -27,4 +31,4 @@ function ischeck(){
 	   document.getElementById('Result').innerHTML="Oops! Number is neither Odd nor Even"
 	}
 }
-	
+}	
